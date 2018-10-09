@@ -18,6 +18,10 @@
 
     helm init -i xxxx/k8s.gcr.io/tiller:v2.9.0
 
+例子：
+
+    helm init --upgrade -i registry.cn-hangzhou.aliyuncs.com/google_containers/tiller:v2.11.0 --stable-repo-url https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
+
 
 ### 无需翻墙的操作步骤
 
